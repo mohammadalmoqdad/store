@@ -2,15 +2,31 @@ h1{
     text-align: center;
     font-style: oblique;
     font-size: 4.3rem;
+    opacity: 0.9;
 }
-header li{
+header div img{
+ height: 50px;
+ width: 200px;
+}
+header div li{
+  
+    display: inline-block;
+}
+header div ul{
+    text-align: center;
+    
+}
+.imgmarg{
+    margin-right: 20px;
+}
+header nav li{
     display: inline;
     margin: 4rem;
     font-family: monospace;
     font-style: italic;
     font-size: 20px;
 }
-header ul{
+header nav ul{
     padding: 30px;;
     text-align: center;
 }
@@ -40,7 +56,7 @@ main li{
 main ul {
     text-align: center;
 }
-img {
+main img {
     height: 350px;
     border: 2px solid gray;
 }
