@@ -8,6 +8,7 @@ header div img{
  height: 50px;
  width: 200px;
 }
+
 header div li{
   
     display: inline-block;
@@ -17,7 +18,8 @@ header div ul{
     
 }
 .imgmarg{
-    margin-right: 20px;
+  float: right;
+   border: 2px solid red;
 }
 header nav li{
     display: inline;
@@ -27,7 +29,7 @@ header nav li{
     font-size: 20px;
 }
 header nav ul{
-    padding: 30px;;
+    padding: 30px;
     text-align: center;
 }
 header nav{
