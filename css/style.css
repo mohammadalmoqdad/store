@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    font-style: oblique;
+    font-size: 4.3rem;
+}
+header li{
+    display: inline;
+    margin: 4rem;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 20px;
+}
+header ul{
+    padding: 30px;;
+    text-align: center;
+}
+header nav{
+    background-color: #47241C;
+    height: 5rem;
+    
+}
+header nav ul li a{
+
+    color: white;
+   
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-size: 22px;
+}
+main li{
+   
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+main ul {
+    text-align: center;
+}
+img {
+    height: 350px;
+    border: 2px solid gray;
+}
+main li p{
+    font-family: cursive;
+    background-color:rgba(192,192,192,0.3);
+    
+    padding:5px;
+    
+}
+footer{
+    background-color:#542922;
+    height: 6.3rem;
+}
+footer p{
+    padding: 40px;
+    padding-left: 20px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
